@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculatrice Simple</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="calculatrice">
+        <input type="text" id="ecran" disabled>
+        <div id="touches">
+            <!-- Touches de la calculatrice -->
+            <button onclick="appuyerTouche('1')">1</button>
+            <button onclick="appuyerTouche('2')">2</button>
+            <button onclick="appuyerTouche('3')">3</button>
+            <button onclick="appuyerTouche('+')">+</button>
+            <!-- Ajouter d'autres boutons ici -->
+            <button onclick="calculer()">=</button>
+            <button onclick="effacer()">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
